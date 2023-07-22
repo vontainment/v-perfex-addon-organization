@@ -1,0 +1,128 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: -21px 0 20px 0;
+}
+
+h1 {
+    text-align: left;
+    color: #4CAF50;
+}
+
+h2 {
+    text-align: center;
+    color: #4CAF50;
+}
+
+.top-buttons {
+    display: flex;
+    margin-bottom: 20px;
+    text-align: center;
+    padding: 10px;
+    background-color: #fefefe;
+}
+
+button {
+    background-color: #66cc33;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin: 4px 2px;
+    cursor: pointer;
+    border: none;
+    border-radius: 4px;
+    box-shadow: rgba(0, 0, 0, 0.15) 1.95px 1.95px 2.6px;
+    transition-duration: 0.4s;
+}
+
+button:hover {
+    background-color: #45a049;
+}
+
+message-container {
+    border: 2px solid #66cc33!important;
+    border-radius: 4px;
+    margin: 10px;
+    padding: 20px;
+}
+
+.row {
+    display: flex;
+    margin-top: 20px;
+}
+
+.column {
+    flex: 50%;
+    padding: 10px;
+    box-sizing: border-box;
+    border: 2px solid #66cc33;
+    border-radius: 4px;
+    margin: 10px;
+}
+
+p, .dropzone {
+    border: 1px solid #ddd;
+    padding: 8px;
+    margin-bottom: 10px;
+    background-color: #f2f2f2;
+    border-radius: 4px;
+}
+
+.dropzone {
+    border: 2px solid #66cc33;
+    padding: 20px;
+    margin: 10px;
+    text-align: center;
+    cursor: pointer;
+}
+
+.dz-message {
+    font-size: 18px;
+    color: #888;
+}
+
+.dz-preview {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    margin-bottom: 10px;
+}
+
+.dz-preview .dz-filename {
+    margin: 0;
+}
+
+.dz-preview .dz-progress {
+    flex-grow: 1;
+    margin-left: 10px;
+    background-color: #ddd;
+    height: 10px;
+    border-radius: 5px;
+    overflow: hidden;
+}
+
+.dz-preview .dz-progress .dz-upload {
+    background-color: #4CAF50;
+    height: 100%;
+    border-radius: 5px;
+    transition: width 0.3s ease-in-out;
+}
+
+.dz-preview .dz-error-message, .dz-preview .dz-remove:hover {
+    color: #f44336;
+}
+
+.dz-preview .dz-remove {
+    color: #888;
+    cursor: pointer;
+    margin-left: 10px;
+}
+
+header {
+    background-color: #0366d6;
+    padding: 20px;
+    border-bottom: 4px solid #66cc33;
+}
